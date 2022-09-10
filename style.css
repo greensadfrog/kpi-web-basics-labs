@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+li {
+    line-height: 1.5;
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 2.5;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px;
+}
+
+a:link, a:visited, a:focus {
+    background: #00BCD4;
+}
+
+a:hover {
+    background: #B2EBF2;
+}
+
+a:active {
+    background: red;
+    color: white;
+}

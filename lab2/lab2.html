@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Laboratory work #1">
+    <meta name="keywords" content="HTML, WEB-basics, KPI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ІВ-92 Дудка М.О Лабораторна № 2 варіант 10 </title>
+    <link rel="stylesheet" href="lab2.css">
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+
+        }
+        table, tr, td {
+            border-collapse: collapse;
+            border: 3px solid black;
+            width: 300px;
+            min-width: 60px;
+            height: 30px;
+            margin: 0;
+            padding: 5px 10px;
+            text-align: center;
+            color: #4a148c;
+            font-size: 24px;
+        }
+
+        #row1 {
+            background-color: #108f8f;
+        }
+
+        #row2 {
+            background-color: #f5f510;
+        }
+
+        #row1:hover + #row2 {
+            background-color: #108f8f;
+        }
+
+        #row1:hover {
+            background-color: #f5f510;
+        }
+
+    </style>
+</head>
+<body>
+<div class="firstTask">
+    <table>
+        <tr id="row1">
+            <td>1</td>
+            <td>2</td>
+            <td colspan="2" rowspan="2">Дудка</td>
+            <td colspan="2">Михайло</td>
+            <td colspan="2" rowspan="2">Олександрович</td>
+        </tr>
+        <tr id="row2">
+            <td colspan="2">ІВ-92</td>
+            <td colspan="2">ЛР-2 Варіант 10</td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="6"></td>
+        </tr>
+    </table>
+</div>
+<div class="secondTask">
+    <div class="outerCircle">
+        <div class="innerCircle"></div>
+        <div class="topCircle"></div>
+        <div class="topRightCircle"></div>
+        <div class="rightCircle"></div>
+        <div class="rightBottomCircle"></div>
+        <div class="bottomCircle"></div>
+        <div class="leftBottomCircle"></div>
+        <div class="leftCircle"></div>
+        <div class="topLeftCircle"></div>
+    </div>
+</div>
+</body>
+</html>

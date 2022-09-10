@@ -1,0 +1,106 @@
+.outerCircle {
+    position: absolute;
+    top: 50%;
+    background-color: darkgray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.innerCircle {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.topCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.topRightCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 85%;
+    top: 18%;
+    transform: translate(-40%, -70%);
+    border-radius: 50%;
+}
+
+.rightCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.rightBottomCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 85%;
+    bottom: 10%;
+    transform: translate(-40%, 30%);
+    border-radius: 50%;
+}
+
+.bottomCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+}
+
+.leftBottomCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 10%;
+    bottom: 10%;
+    transform: translate(-40%, 30%);
+    border-radius: 50%;
+}
+
+.leftCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.topLeftCircle {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    left: 10%;
+    top: 18%;
+    transform: translate(-40%, -70%);
+    border-radius: 50%;
+}
