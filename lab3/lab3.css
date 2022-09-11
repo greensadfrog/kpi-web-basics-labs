@@ -17,6 +17,7 @@ body {
     min-width: 400px;
     border-radius: 10%;
     box-shadow: 0 0 10px 2px;
+    font-family: Montserat, sans-serif;
 }
 a {
     color: #4fc3f7;
