@@ -27,6 +27,7 @@ let scale = 1
 
 function addRandomImg() {
     randomImage.style.scale = '1'
+    scale = 1
     randomImageDiv.appendChild(randomImage)
 
 }
