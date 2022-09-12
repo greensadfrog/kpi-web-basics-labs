@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserat, sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+}
+
+.education-and-hobbies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.second-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#first-element:hover, .second-element:hover {
+    cursor: pointer;
+}
+
+.image-buttons-containers, .image, .random-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+button {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
