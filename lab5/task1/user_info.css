@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100vh;
+    color: white;
+    font-size: 25px;
+    font-family: Montserat, sans-serif;
+}

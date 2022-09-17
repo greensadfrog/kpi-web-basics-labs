@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 30px;
+}
+
+#inputColor {
+    margin-bottom: 10px;
+    width: 360px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task1 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+td {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
